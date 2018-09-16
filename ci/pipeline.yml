@@ -9,7 +9,7 @@ resources:
 jobs:
 - name: Build
   plan:
-  - get: spring-testing
+  - get: spring-microservices
     trigger: true
   - task: run the test suite
-    file: spring-testing/ci/tasks/run_tests.yml
+    file: spring-cloud-microservice-example//ci/tasks/run_tests.yml

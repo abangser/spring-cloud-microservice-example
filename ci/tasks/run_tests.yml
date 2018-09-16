@@ -8,8 +8,8 @@ image_resource:
     tag: latest
 
 inputs:
-- name: spring-testing
+- name: spring-microservices
 
 run:
   user: root
-  path: spring-testing/ci/scripts/run_tests.sh
+  path: spring-cloud-microservice-example/ci/scripts/run_tests.sh
