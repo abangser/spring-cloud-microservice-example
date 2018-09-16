@@ -2,5 +2,5 @@
 
 set -e -u -x
 
-cd ./spring-cloud-microservice-example
+cd spring-cloud-microservice-example
 mvn clean install

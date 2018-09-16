@@ -12,4 +12,4 @@ jobs:
   - get: spring-microservices
     trigger: true
   - task: run the test suite
-    file: spring-cloud-microservice-example//ci/tasks/run_tests.yml
+    file: spring-cloud-microservice-example/ci/tasks/run_tests.yml
